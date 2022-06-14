@@ -3,7 +3,7 @@ from flask import render_template
 
 @app.route('/')
 def index():
-    name = "Małgorzata Leśniak"
+    name = "Małgorzata  Leśniak"
     return render_template("index.html.jinja", name=name)
 
 @app.route('/author')
